@@ -1,0 +1,27 @@
+.home-container{
+  background-image: url('../assets/bg.jpeg');
+  background-size: cover;
+  opacity: 0.5;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centered-text{
+  color: #fff;
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+.centered-text p{
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+.shop-link{
+  color:#fff;
+  text-decoration: none;
+}
+.shop-link:hover{
+  text-decoration: underline;
+  color:#fff
+}

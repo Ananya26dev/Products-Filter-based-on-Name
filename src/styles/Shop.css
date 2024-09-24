@@ -1,0 +1,48 @@
+.input-container{
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  width: 250px;
+}
+input [type="search"]{
+  background: transparent;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  color: rgb(110,42,11);
+}
+#searchIcon{
+  background: transparent; 
+  border: none; 
+  outline: none; 
+  cursor: pointer; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-image{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+#product-container{
+  background-color: bisque;
+}
+.product-card{
+  background-color: bisque;
+}
+.card-body{
+  padding: 0.5rem;
+}
+.product-price{
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.product-name{
+  color: #716f6f;
+  font-size: 0.97rem;
+  font-weight: 600;
+}
+#addToCart{
+  padding: 0;
+  float: right;
+}
